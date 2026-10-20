@@ -1,0 +1,21 @@
+{
+  "name": "poc-annotation-brush-web",
+  "version": "1.0.0",
+  "description": "CE.SDK example application: a free-hand annotation brush whose strokes become editable vector paths",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "check:syntax": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cesdk/cesdk-js": "^1.84.0",
+    "@cesdk/engine": "^1.84.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^6.0.3"
+  },
+  "private": true
+}
